@@ -1,0 +1,49 @@
+/* em css podemos trabalhar com cores em fomatos:
+.nome em ingles
+.rgb
+.hex
+.hsl
+.rgba
+.hsla
+*/
+.tomato{/*cor tomato*/
+    margin: 10px;
+    background-color: aquamarine;
+    color: tomato;
+}
+.slate_blue{/*cor slateblue*/
+    margin: 10px;
+    background-color: aquamarine;
+    color: slateblue;
+}
+.green{/*cor green*/
+    margin: 10px;
+    background-color: aquamarine;
+    color:green;
+}
+.rgb{/*cor em rgb(red,green,blue)*/
+    margin: 10px;
+    color: rgb(255,0,70);
+}
+.rgba{/*adicionamos o caraceter alpha,que nada mais é do que a opacidade da cor
+    que pode varir entre 0.0 e 1 */
+    margin: 10px;
+    color: rgba(30,100,80,0.7);
+}
+/*sintaxe de cor hex = #RRGGBB*/
+.hex1{
+    margin: 10px;
+    color: #0080ff;
+}
+.hex2{
+    margin: 10px;
+    color: #ff0040;
+}
+.hsl{
+    margin: 10px;
+    color: hsl(211, 38%, 35%);/*sintaxe: hsl(hue,saturation,lightness)*/
+}
+.hsla{
+    margin: 10px;
+    color: hsla(300, 76%, 72%,1);/*o numero 1 representa a opacidade que vai de 0.0 a 1*/
+}

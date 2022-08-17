@@ -1,0 +1,35 @@
+ /*margin cria um espeção entre os elementos,fora
+de qualquer borda definida*/
+
+.element1{
+    background-color: aqua;
+    text-align: center;
+    margin: auto;/*alinha automaticamente o elemento no centro*/
+}
+/*podemos definir o tamanho da margem para cada lado da box*/
+.element2{
+    background-color: chartreuse;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+/*margin Shorthand*/
+.element3{
+    background-color: darkorange;
+    text-align: center;
+    margin: 15px 8px 15px 8px;/*up,right,bottom,left*/
+    
+}
+.element4{
+    background-color:hsla(348, 83%, 47%,0.5);
+    margin-bottom: 30px;
+}
+/*as margens de cima e de baixo vão entrar em colapso e,ao inves de somar
+as duas margens,a margem maior será definida e a menor ignorada*/
+.element5{
+    background-color: hsla(271, 76%, 53%,0.6);
+    margin-top: 15px;
+}
+

@@ -1,0 +1,47 @@
+/*seletores sao usados para selecionar o elemento que 
+desejamos estilizar,vamos começar com os tipos mais básicos:*/
+
+/*-Element- Selector: seleciona pelo nome do elemento*/
+p{
+    text-align: center;
+    color: white;
+}
+/*-Id(#)- Selector: seleciona um unico elemento em especifico
+definido pelo atrinuto id no documento html*/
+#parag1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+/*-Class(.)- Selector: seleciona elementos html que sejam da mesma classe definida atraves
+do atributo class em html.Uma classe pode ter varios elementos e um elemento pode pertencer
+a mais de uma classe*/
+.paragrafos{/*todos elementos que pertencerem a classe paragrafos sera estilizado*/
+    text-align: center;
+    color: red; 
+}
+p.principal{/*somente o elemento p que pertencer a classe principal sera estilizado*/
+    margin: 0%;
+    padding: 0cm;
+}
+strong.texto1{/* esses dois blocos de codigo vao estilizar o mesmo elemento que teve como 
+    atributo "class= texto1 primeiroTexto"(Duas Classes)]
+    
+    
+    /]*/
+    display: block;
+    size: 0cm;
+}
+strong.primeiroTexto{/*estiliza o mesmo elemento de cima pois ele pertence as duas classes*/
+    display: block;
+    size: 0em;
+}
+/*-Universal(*)- Selector: estiliza todos os elementos dentro do documento html*/
+*{
+    text-align: center;
+    color: blue;
+}
+/*-Grouping selector- seleciona mais de um elemento para ser estilizado
+atraves de virgulas...*/
+h1,h2,h3,a,strong{
+    color: green;
+}

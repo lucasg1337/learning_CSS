@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learniing CSS3</title>
+        <meta charset="utf-8">
+    </head>
+    <style>
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#secao1,#secao2{
+  display: flex;/*definimos que o elemento se4ction sera um container flex*/
+  flex-flow: wrap;
+}
+.quadrado{/*todos os elementos que pertecem a classe quadrado sera estilizada*/
+  width: 100px;
+  height: 100px;
+  background: rgba(255,0,23,0.2);/*definindo a cor de fundo com um shorthand usando rgba(),permite diminuirmos a opacidade do background sem interferir no texto/elementos filhos*/
+  margin: 1%;
+  font-size: 400%;
+  text-align: center;
+  line-height: 100px;/*alinhar texto na vertical*/
+}
+        .quadrado:hover{/*transicao do claro para o escuro*/
+           background: rgba(255,0,23,1);
+           transition-duration: 0.8s;
+        }
+        .circulo{
+            width: 100px;
+            height: 100px;
+            background-image: url(images/106166.jpg);
+            background-repeat: no-repeat;
+            text-align: center;
+            font-size: 400%;
+            line-height: 100px;
+            color: white;
+            border-radius: 32px;
+            margin: 1%;
+}
+        .circulo:hover{
+            opacity: 0.3;
+            transition-duration: 0.7s;
+        }
+        
+
+    </style>
+    <body>
+      <section id="secao1">
+      <div class="quadrado"> 1</div>
+      <div class="quadrado"> 2</div>
+      <div class="quadrado"> 3 </div>
+      <div class="quadrado"> 4 </div>
+      <div class="quadrado"> 5 </div>
+      <div class="quadrado"> 6 </div>
+      </section>
+      <section id="secao2">
+      <div class="circulo"> 1</div>
+      <div class="circulo"> 2</div>
+      <div class="circulo"> 3 </div>
+      <div class="circulo"> 4 </div>
+      <div class="circulo"> 5 </div>
+      <div class="circulo"> 6 </div>
+      </section>
+  </body>
+        
+</html>

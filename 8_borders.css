@@ -1,0 +1,61 @@
+/* as Borders Properties são usadas para controlar as bordas de um elemento*/
+
+/*----border-style---
+define o estilo de borda do elemento,sem ela,as outras
+propriedades não funcionam
+*/
+.elemento1{
+    border-style: double;
+    padding: 2%;
+    margin-top: 0.5in;
+}
+/*podemos aplicar um estilo de borda para cada lado da box*/
+.elemento2{
+    border-style: dotted dashed solid double;/*cima,direita,baixo,esquerda*/
+    padding: 2%;
+    margin-top: 0.5in;
+}
+/*----border-width----
+define o tamanho da borda
+*/
+.elemento3{
+    border-style: solid;
+    border-width: 0.8rem;/*aplica o tamanho aos 4 lados*/
+    padding: 2%;
+    margin-top: 0.5in;
+}
+.elemento4{
+    border-style: dashed;
+    border-width: 0px 3px;/*valor1(cima e baixo) valor2(esquerda e direita)*/
+    padding: 2%;
+    margin-top: 0.5in;
+}
+/*----border-color----
+determina a cor da borda(se nao for definido
+a borda irá herdar a cor)
+*/
+.elemento5{
+    border-style:double;
+    border-width: 2.5px 5px;
+    border-color:crimson;
+    padding: 2%;
+    margin-top: 0.5in;
+}
+/*----border Shorthand----
+maneira rapida de definir as propriedades de border
+*/
+.elemento6{
+    border: 2px outset darkviolet;/*tamanho,estilo,cor*/
+    padding: 2%;
+    margin-top: 0.5in;
+}
+/*----border-radius----
+arredonda as bordas de acordo com o 
+tamanho especificado
+*/
+.elemento7{
+    border: 3px dashed darkorange;
+    border-radius: 12px;
+    padding: 2%;
+    margin-top: 0.5in;
+}

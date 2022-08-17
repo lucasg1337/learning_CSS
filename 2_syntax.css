@@ -1,0 +1,9 @@
+/* uma regra em css consiste de um SELETOR e um BLOCO DE CODIGO*/
+
+/*No exemplo abaixo h1 corresponde ao elemento html que queremos estilizar
+    color é a propriedade e blue o valor,o mesmo vale para font-size e large*/
+
+h1{  
+    color: blue;
+    font-size: large;
+}

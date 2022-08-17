@@ -1,0 +1,30 @@
+/*
+se trata de uma linha desenhada fora 
+da borda do elemento.A largura(width) do elemento
+não afeta a outline.
+*/
+
+#element1{
+    width: 400px;/*content*/                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    padding: 0;
+    border:10px solid darkgoldenrod;/*borders*/
+    outline: 20px solid green;/*linha que envolve toda a caixa(box-model)*/
+    margin: 50px;
+    text-align: center;
+}
+/*
+--outline properties---
+outline-style - define o estilo da linha
+outline-color - define a cor
+outline-width - define o tamanho/largura
+outiline-offset - define uma margem transparente entre a outline e a borda do elemento
+outline(shorthand) - atalho
+*/
+#element2{
+    width: 500px;/*largura do conteudo*/
+    padding: 1vh;/*espaço entre as bordas e o conteudo*/
+    border: 20px dashed violet;/*linha nas etremidades do elemento*/
+    margin: 5vh;/*espaço entre o elemento e seu elemento pai*/
+    outline: 20px double brown;/*linha fora dessa caixa toda*/
+    outline-offset: 20px;/*espaço transparente entre a borda e a linha de fora(mão inclusa na caixa)*/
+}

@@ -1,0 +1,16 @@
+/* a propriedade padding é usada para definir um espaço
+entre o conteudo do elemento e a borda do elemento8*/
+.container1{
+    font-size: larger;
+    border: 3px groove darkblue;/*border too see element  limits*/
+    padding: 20px;/*margin of 20px all sides*/
+}
+/*individual sides*/
+.container2{
+    font-size: larger;
+    border: 4px double darkmagenta;
+    padding-top: 0.5in;
+    padding-right: 0.4in;
+    padding-bottom: 0.7in;
+    padding-left: 0.3in;
+}

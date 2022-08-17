@@ -1,0 +1,15 @@
+/*ha tres maneiras de estilizar uma pagina html com css:
+1_ Inline CSS
+2_ External CSS
+3_ Internal CSS
+
+*/
+
+p{
+    color: blue;
+    text-decoration: double;
+}
+em{
+    font-size: 10vh;
+    color: red;
+}

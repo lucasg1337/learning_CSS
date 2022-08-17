@@ -1,0 +1,74 @@
+/* propriedades backgrounds são usadas para adicionar
+efeitos no background do elemento*/
+
+/*----background-color-----*/
+h1{
+    background-color: blueviolet;
+    padding: 1%;
+}
+/*----opacity----
+quando mudamos a transparencia de um elemento,todos os elementos
+filhos herdarão a mesma transparencia*/
+h2{
+    opacity: 0.6;/*value from 0.o to 1*/
+}
+/*para nao aplicarmos a transparencia nos elementos filhos,como 
+texto por exemplo,usamos rgba() color*/
+p{
+    color: darkblue;
+    padding: 2%;
+    background-color: rgba(100,40,150,0.4);/*o valor alpha controla a opacidade*/ 
+}
+/*----background-image----
+especifica uma imagem para ser usada como fundo do elemento
+por padrao, a imagem é repetido na vertical e horizontal para
+preencher todo espaço disponivel*/
+aside{
+    width: 450px;
+    height: 300px;
+    color: white;
+    background-image: url(agreebyrd.gif);
+}
+/*----background-repeat---
+especifica em qual direção a imagem vai ser repetida
+*/
+aside{
+    background-repeat: repeat-x;/*repete a imagem na horizontal*/
+}
+/*----background-position----
+seleciona como a imagem vai se posicionar no container
+*/
+div{
+    width: 100%;
+    height: 300px;
+    color:darkred;
+    border: 2px solid darkred;
+    padding: 1%;
+    background-image: url(Minions\ 10.gif);
+    background-repeat:no-repeat ;/*define que a imagem não irá se repetir*/
+    background-position: right top;/*alinha o elemento a direita(right) e acima(top)*/
+}
+/*----background-attachment----
+define se a imagem vai ser movel(scroll) ou se vai ser fixa na pagina(fixed)
+*/
+.png1{
+    width: 90%;
+    height: 300px;
+    background-image: url(pngwing.com.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;/*define que a imagem vai ficar parada na página*/
+}
+/*----background Shorthand----
+shorthand é uma maneira de definirmos valores 
+para as propriedades principais em um só linha/declaracao seguindo essa ordem:
+1.background-color
+2.background-image
+3.background-repeat
+4.background-attachment
+5.background-position
+*/
+.shorthand{
+    color:white;
+    background: darkblue url(agreebyrd.gif) repeat-y scroll left bottom;
+}

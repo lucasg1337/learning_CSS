@@ -1,0 +1,16 @@
+/*
+-todos os elementos sao considerados caixas(boxes)
+-o termo box model é usado quando falamos a respeito de design e layout
+-se trata de uma caixa que envolve todos os elementos html.Ela consiste de:
+.margin(area limpa fora da borda)
+.border(uma borda entre o conteudo e a area de padding)
+.padding(area em volta do conteudo)
+.content(conteudo da caixa,como texto e imagem)
+*/
+p{
+    /*o width total será a soma de todas a propriedades*/
+    width: 300px;
+    border: 10px solid red;
+    margin: 15px;
+    padding: 20px;
+}
